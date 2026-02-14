@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://huapala.xyz/sitemap1.txt

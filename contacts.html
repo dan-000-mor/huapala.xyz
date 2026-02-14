@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta charset="utf-8">
+  <meta content="INDEX, FOLLOW" name="robots">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>
+   &Kcy;&ocy;&ncy;&tcy;&acy;&kcy;&tcy;&ycy; &mdash; TechForge
+  </title>
+  <link href="https://techforge.biz/ico.ico" rel="icon" type="image/x-icon">
+  <link href="https://techforge.biz/contacts.html" rel="canonical">
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background-color: #1a202c;
+            color: #e2e8f0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #2d3748;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        .logo span {
+            display: block;
+            font-size: 14px;
+            font-weight: normal;
+            color: #a0aec0;
+        }
+        .nav a {
+            color: #e2e8f0;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 500;
+        }
+        .nav a:hover {
+            color: #ff6600;
+        }
+        .cta-button {
+            background-color: #ff6600;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+        .contacts-wrapper {
+            display: flex;
+            gap: 40px;
+            margin-top: 40px;
+        }
+        .contact-info {
+            flex: 1;
+        }
+        .contact-info h1 {
+            font-size: 42px;
+            color: #ffffff;
+            border-bottom: 2px solid #ff6600;
+            padding-bottom: 10px;
+        }
+        .contact-info p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #a0aec0;
+        }
+        .contact-info strong {
+            color: #ffffff;
+        }
+        .contact-form {
+            flex: 1;
+            background-color: #2d3748;
+            padding: 30px;
+            border-radius: 8px;
+        }
+        .contact-form h2 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #a0aec0;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border-radius: 5px;
+            border: 1px solid #4a5568;
+            background-color: #1a202c;
+            color: #e2e8f0;
+            box-sizing: border-box; /* Учитываем padding и border в ширине */
+        }
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        .submit-button {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff6600;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .submit-button:hover {
+            background-color: #e65c00;
+        }
+        .footer {
+            background-color: #1a202c;
+            border-top: 1px solid #2d3748;
+            padding: 40px 0;
+            text-align: center;
+            color: #718096;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+    /* --- Хедер --- */
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .nav a {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+        padding: 10px;
+        background-color: #2d3748;
+        border-radius: 5px;
+    }
+
+    .cta-button {
+        margin: 15px 0 0 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* --- Секция Hero --- */
+    .hero {
+        padding: 60px 0;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero-buttons {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .hero-buttons .cta-button {
+        margin: 10px 0;
+        width: 80%;
+    }
+
+    /* --- Секция отзывов --- */
+    .testimonial-carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-card {
+        max-width: 100%;
+    }
+
+     /* --- Футер --- */
+    .footer-content {
+        flex-direction: column;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+ </head>
+ <body>
+  <!-- Хедер -->
+  <header class="header">
+   <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="logo">
+     <a href="/" style="text-decoration: none; color: #ffffff;">
+      TechForge
+      <span>
+       &Kcy;&ucy;&iecy;&mcy; &vcy;&acy;&shcy;&iecy; &tscy;&icy;&fcy;&rcy;&ocy;&vcy;&ocy;&iecy; &bcy;&ucy;&dcy;&ucy;&shchcy;&iecy;&iecy;
+      </span>
+     </a>
+    </div>
+    <nav class="nav">
+     <a href="/">
+      &Gcy;&lcy;&acy;&vcy;&ncy;&acy;&yacy;
+     </a>
+     <a href="blog.html">
+      &Bcy;&lcy;&ocy;&gcy;
+     </a>
+     <a href="o-nas.html">
+      &Ocy; &ncy;&acy;&scy;
+     </a>
+    </nav>
+    <a class="cta-button" href="#">
+     &Kcy;&ocy;&ncy;&scy;&ucy;&lcy;&softcy;&tcy;&acy;&tscy;&icy;&yacy; &bcy;&iecy;&scy;&pcy;&lcy;&acy;&tcy;&ncy;&ocy;
+    </a>
+   </div>
+  </header>
+  <!-- Контент -->
+  <div class="container">
+   <div class="contacts-wrapper">
+    <div class="contact-info">
+     <h1>
+      &Scy;&vcy;&yacy;&zhcy;&icy;&tcy;&iecy;&scy;&softcy; &scy; &ncy;&acy;&mcy;&icy;
+     </h1>
+     <p>
+      &Gcy;&ocy;&tcy;&ocy;&vcy;&ycy; &ocy;&bcy;&scy;&ucy;&dcy;&icy;&tcy;&softcy; &vcy;&acy;&shcy; &pcy;&rcy;&ocy;&iecy;&kcy;&tcy; &icy;&lcy;&icy; &ncy;&ucy;&zhcy;&ncy;&acy; &kcy;&ocy;&ncy;&scy;&ucy;&lcy;&softcy;&tcy;&acy;&tscy;&icy;&yacy;? &Mcy;&ycy; &vcy;&scy;&iecy;&gcy;&dcy;&acy; &ncy;&acy; &scy;&vcy;&yacy;&zcy;&icy; &icy; &rcy;&acy;&dcy;&ycy; &pcy;&ocy;&mcy;&ocy;&chcy;&softcy;.
+     </p>
+     <p>
+      <strong>
+       Email:
+      </strong>
+      <br>
+      <a href="/cdn-cgi/l/email-protection#593a36372d383a2d192d3c3a313f362b3e3c773b3023" style="color: #ff6600;">
+       <span class="__cf_email__" data-cfemail="d0b3bfbea4b1b3a490a4b5b3b8b6bfa2b7b5feb2b9aa">
+        [email&nbsp;protected]
+       </span>
+      </a>
+     </p>
+    </div>
+    <div class="contact-form">
+     <h2>
+      &Fcy;&ocy;&rcy;&mcy;&acy; &ocy;&bcy;&rcy;&acy;&tcy;&ncy;&ocy;&jcy; &scy;&vcy;&yacy;&zcy;&icy;
+     </h2>
+     <form>
+      <div class="form-group">
+       <label for="name">
+        &Vcy;&acy;&shcy;&iecy; &icy;&mcy;&yacy;
+       </label>
+       <input id="name" name="name" required type="text">
+      </div>
+      <div class="form-group">
+       <label for="email">
+        &Vcy;&acy;&shcy; Email
+       </label>
+       <input id="email" name="email" required type="email">
+      </div>
+      <div class="form-group">
+       <label for="message">
+        &Vcy;&acy;&shcy;&iecy; &scy;&ocy;&ocy;&bcy;&shchcy;&iecy;&ncy;&icy;&iecy;
+       </label>
+       <textarea id="message" name="message" required></textarea>
+      </div>
+      <button class="submit-button" type="submit">
+       &Ocy;&tcy;&pcy;&rcy;&acy;&vcy;&icy;&tcy;&softcy;
+      </button>
+     </form>
+    </div>
+   </div>
+  </div>
+  <!-- Футер -->
+  <footer class="footer">
+   <p>
+    TechForge &mdash; &gcy;&dcy;&iecy; &tcy;&iecy;&khcy;&ncy;&ocy;&lcy;&ocy;&gcy;&icy;&icy; &ocy;&bcy;&rcy;&iecy;&tcy;&acy;&yucy;&tcy; &fcy;&ocy;&rcy;&mcy;&ucy;. &copy; 2025
+   </p>
+  </footer>
+  <script data-cfasync="false" src="https://techforge.biz/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
+  </script>
+ </body>
+</html>
